@@ -83,7 +83,7 @@ int main(){
 
     cout<<"\n";
 
-    cout<<" BFS  : ";
+    cout<<"BFS  : ";
     BFS(edges,n);
 
     for(int i=0;i<n;i++){
