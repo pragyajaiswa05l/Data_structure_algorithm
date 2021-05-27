@@ -12,7 +12,7 @@ void SortZeroesAndOne(int arr[], int n){
         if(arr[j] == 1){
             j--;
         }
-        else{
+        else if(arr[i] !=0  && arr[j] !=1){
             int temp = arr[i];
             arr[i] = arr[j];
             arr[j] = temp;
