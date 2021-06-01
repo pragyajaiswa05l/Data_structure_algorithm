@@ -13,6 +13,13 @@ int findUnique(int * arr, int size){
         }
     }
 
+    /*or we can also use xor to find unquie element
+    int xorr = 0;
+    for(int i =0;i<size;i++){
+        xorr ^=arr[i];
+    }
+    return xorr;*/
+
 
 
 }
