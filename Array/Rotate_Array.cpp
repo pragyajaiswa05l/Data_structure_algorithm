@@ -22,6 +22,12 @@ int main(){
     }
     int d ;
     cin>>d;
+    if(d>=n && n!=0){
+        d= d%n;
+    }
+    if(n == 0){
+        return;
+     }
     rotate(arr,n,d);
 
     for(int i =0 ;i< n ;i++){
