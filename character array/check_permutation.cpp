@@ -24,3 +24,7 @@ int main(){
     bool ans = checkPermutation(input1 ,input2);
     cout<<ans<<endl;
 }
+
+
+//time complexity = O(n+m)
+//space complexity = O(1);
